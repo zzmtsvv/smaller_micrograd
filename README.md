@@ -1,5 +1,5 @@
 # Smaller MicroGrad
-Tried to do autograd engine based on Karpathy's micrograd repo[1]
+Tried to do autograd engine based on Karpathy's micrograd repo (and on the basis of PyTorch)
 
 ## Examples
 
@@ -94,4 +94,6 @@ print(loss)
 
 
 ## References
-[1] - https://github.com/karpathy/micrograd
+* [Karpathy's micrograd](https://github.com/karpathy/micrograd)
+* [A survey on automatic differentiation](https://arxiv.org/abs/1502.05767)
+* [Backprop for a Linear Layer](https://web.eecs.umich.edu/~justincj/teaching/eecs442/notes/linear-backprop.html)
