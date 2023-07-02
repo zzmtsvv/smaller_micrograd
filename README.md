@@ -3,7 +3,7 @@ Tried to do autograd engine based on Karpathy's micrograd repo (and on the basis
 
 ## Examples
 
-# Regression (it actually learns something!)
+### Regression (it actually learns something!)
 ```python
 from autograd.tensor import Tensor
 from autograd import nn
@@ -46,7 +46,7 @@ print(np.sqrt(loss.data[0]))
 ```
 <img src="images/regression.png" width="400" height="400" />
 
-# Classification (it also learns something!)
+### Classification (it also learns something!)
 ```python
 from autograd.tensor import Tensor
 from autograd import nn
